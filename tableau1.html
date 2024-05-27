@@ -1,0 +1,123 @@
+<html>
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page d'Accueil</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Première ligne -->
+<div class="container-fluid bg-light">
+  <div class="row">
+    <div class="col text-left">
+      <img src="Logo UAC.png" alt="Logo 1" class="img-fluid" style="max-height: 60px;">
+    </div>
+    <div class="col text-center">
+      <p><h2><strong>Bienvenue sur mon Site</strong></h2></p>
+    </div>
+    <div class="col text-right">
+      <img src="eneam.jpeg" alt="Logo 2" class="img-fluid" style="max-height: 60px;">
+    </div>
+  </div>
+</div>
+
+<!-- Deuxième ligne -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Option</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="page.html">Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page1.html" >page1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html" >page2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html" >page3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cv.html">cv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulaire1.html">formul1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulaire2.html">formul2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tableau1.html">tableau1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tableau2.html">tableau2</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+ <table border="1">
+  <h4>tableau1</h4><br/>
+  <style>
+  table{
+     border-collapse:collapse;
+     margin-left: 400px;
+   }
+   
+   tr, td{
+     padding:20px;
+     box-sizing:border-box;
+     text-align:center;
+     padding-right: 100px;
+   }
+   
+   td#premier{
+     background:red;
+     color:blue;
+   }
+   td#second{
+      background:yellow;
+   }
+   
+   td#tersio{
+      font-family:Arial,sans-serif;
+      font-size:24px;
+   }
+   h4{
+    text-align: center;
+    text-decoration: underline;
+   }
+      
+  </style>
+  <tbody> 
+   <tr>
+    <td id="premier" rowspan="3" ><strong> IG </strong></td>
+    <td> GB </td>
+    <td> GL </td>
+   </tr>
+   <tr>
+    <td> G </td>
+    <td> H </td>
+   </tr>
+   <tr>
+    <td id="second" colspan="2"> GRH </td>
+   </tr>
+   <tr>
+    <td> CG </td>
+    <td> GTL </td>
+    <td id="tersio"> I </td>
+   </tr>
+  </tbody>
+ </table>
+</html> 
